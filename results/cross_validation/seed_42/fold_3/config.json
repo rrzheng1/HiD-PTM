@@ -1,0 +1,26 @@
+{
+  "fold": 3,
+  "device": "cuda",
+  "seed": 42,
+  "epochs": 40,
+  "patience": 5,
+  "min_delta": 0.0001,
+  "batch_size": 64,
+  "lr": 0.0003,
+  "variant": "F3",
+  "data": "D:\\learn\\PTM\\ptm疾病相关\\experiment\\data\\ptmd_site_5ptm_mmseqs30_1to1_v1",
+  "threshold": 0.5,
+  "pr_auc_definition": "sklearn average_precision_score",
+  "train_sha256": "f8c7a39dd01e648da479e024c9dd7bba669795f8323ed14e3025c673164c3a3c",
+  "validation_sha256": "306878103851d7eaaec9f0506b2aff59ca89f5ef16a5622983d091ccdeb2d4c0",
+  "feature_manifest_sha256": "47860f11e2ee32c698e97bd0731bfba7164ca347fca3391624f9abe4bc1b271c",
+  "implementation": {
+    "common.py": "6e158f6f19a371512c8ee521df9b57f95b42c08e12a41a19f8d99c7cb28f8dbf",
+    "prepare.py": "8cee7e3f5643d087bee739c4cb7588a5de5fa9ebee8190b0083220ad934adeac",
+    "baseline.py": "90bb0258ac5669138d88d2f3521b552d1abbd1581df463fa6edb7699eb05a08b",
+    "h2_reference.py": "cba01d49feb15eb392ebbc64c671f300b4b208b746a5c391cfe8f3c776595da3",
+    "model.py": "4a062098fdcba88c360d18ec69dca971a014a824e132c720e9ab0c9d0605009c",
+    "early_stopping.py": "b555458fd776447af38b76251c52730314301d4a97cfb21616d27f98c0885232",
+    "train.py": "fe7fa85f987e473e386ba8589a75d15aff5c089925a058261d1f5484c2e41367"
+  }
+}

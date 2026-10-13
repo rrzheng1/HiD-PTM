@@ -1,0 +1,7 @@
+PTM,Within_disease_mean_AUC,Eligible_disease_count,Sample_coverage
+Acetylation,,0,0.0
+Methylation,,0,0.0
+Phosphorylation,0.7133269973865701,181,0.5614535688808695
+SUMOylation,,0,0.0
+Ubiquitination,0.6690569282030734,100,0.48130328353169577
+Overall,0.7343394317789098,230,0.585483519938094

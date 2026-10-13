@@ -1,0 +1,33 @@
+{
+  "signature": {
+    "data_metadata": "140b197b9794c892b7f5c477760a77aeed3e928fd2b0a20b28fd50010c85b44f",
+    "development": "827d084b5ca4f5ca9bd18b33175035a3a03f4e410bccb14cc3e04bff3539e17d",
+    "fasta": "aa8eddafb4eb801e43e8ccdfe2500f67dbb5a3475d0a05a574d3119573a6b436",
+    "mondo": "50c8367f9bd9978321eedf84d4e2e79cb757efbed514c81effb00b9ad2e49994",
+    "text_model": "microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext",
+    "embedding_dir": "D:\\learn\\PTM\\ptm疾病相关\\experiment\\embedding\\esm2_embedding",
+    "prepare_code": "b9a18469ce7ecd9b4c35736906c64d32ff888994599cbd05d77566a718981d05"
+  },
+  "site_count": 113045,
+  "protein_count": 11172,
+  "esm_dim": 1280,
+  "features_use_labels": false,
+  "files_sha256": {
+    "aa.npy": "c24412ed01e372c69251fd1e87722d1863cbd76364922801c8b86867e56eb381",
+    "blosum.npy": "80479ddedf004c3fe52e1b894a30f0401fc8f3d43eb25cda5ddf848fbcbda964",
+    "disease_nodes.csv": "429b2e204fff6b8415c348419a416162af3c750888bbacabcc112a51e7185647",
+    "disease_text.npy": "eea588188d163cbde0972419fcc0c4666614a26c31267d79b736eb30771c411b",
+    "embedding_provenance.csv": "c6309e94155ed2e177f5d24bab393e8308ecfd8b2084855394041731d7d1ffe7",
+    "esm_progress.jsonl": "e228aeaae11d5177914401d74de56e281aa1d933ff5cc0d14eabf2c769eaeb29",
+    "esm_windows.npy": "723f46e1f68a246f325b99e7a2225148f7270cd39e74a592281b383681c5b9fa",
+    "mask.npy": "d763d3f29ab53b510f9ec3f2c0d71b7ee911c1cd7e9b3baaa5c77173f75e48fd",
+    "ontology_edges.npy": "21625c754c8a18a357da8aefeeb05f49fab32798775bfcee7fa4968c2e1f7538",
+    "preparation_config.json": "786e4dbb6483f832f326024f0ba524a29b47ff62ccc9c40371526881c9de3c56",
+    "protein_mean.npy": "b92aac9cc614d26b0d4dd92354c3cf71e447f098d85c26dcea6eb63779d810ad",
+    "sites.csv": "a44db50830e86a552bd2748bede99d5ecf4e7bf5746bac464471dad5fea0edee",
+    "site_protein.npy": "69929f9dfb3c0ea15fb26edcdea60c9d1c62fc1ebd1b7bc98e84bc07deafe4f5",
+    "text_complete.json": "4be70aff8152cc56bdfc6347d8590eaccd572218cd9f5434f6ec3e5b6c180107",
+    "text_provenance.json": "f3afcb0f7b2b5aaeaffd188965a3ed0281c9d8a4ab865ae2cdda890e0189ee8f"
+  },
+  "provenance_limit": "Existing raw ESM tensors contain no sequence hash; dimensions checked and current sequence hashes recorded, but historical same-length sequence identity cannot be proved. Long proteins may use overlapping chunks."
+}

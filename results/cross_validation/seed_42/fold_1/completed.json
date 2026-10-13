@@ -1,0 +1,40 @@
+{
+  "config": {
+    "fold": 1,
+    "device": "cuda",
+    "seed": 42,
+    "epochs": 40,
+    "patience": 5,
+    "min_delta": 0.0001,
+    "batch_size": 64,
+    "lr": 0.0003,
+    "variant": "F3",
+    "data": "D:\\learn\\PTM\\ptm疾病相关\\experiment\\data\\ptmd_site_5ptm_mmseqs30_1to1_v1",
+    "threshold": 0.5,
+    "pr_auc_definition": "sklearn average_precision_score",
+    "train_sha256": "91bf4277513ea9b1edefc0919487c2ba240e48f5dd4d627323ba334430bae595",
+    "validation_sha256": "9f2a3df5330fc6cf47b6956ae96c7c6f731cdeb8b726a61137f7f4ae7bb0c1a3",
+    "feature_manifest_sha256": "47860f11e2ee32c698e97bd0731bfba7164ca347fca3391624f9abe4bc1b271c",
+    "implementation": {
+      "common.py": "6e158f6f19a371512c8ee521df9b57f95b42c08e12a41a19f8d99c7cb28f8dbf",
+      "prepare.py": "8cee7e3f5643d087bee739c4cb7588a5de5fa9ebee8190b0083220ad934adeac",
+      "baseline.py": "90bb0258ac5669138d88d2f3521b552d1abbd1581df463fa6edb7699eb05a08b",
+      "h2_reference.py": "cba01d49feb15eb392ebbc64c671f300b4b208b746a5c391cfe8f3c776595da3",
+      "model.py": "4a062098fdcba88c360d18ec69dca971a014a824e132c720e9ab0c9d0605009c",
+      "early_stopping.py": "b555458fd776447af38b76251c52730314301d4a97cfb21616d27f98c0885232",
+      "train.py": "fe7fa85f987e473e386ba8589a75d15aff5c089925a058261d1f5484c2e41367"
+    }
+  },
+  "best_epoch": 2,
+  "files_sha256": {
+    "config.json": "60a470eb2690e55f2e071e2378f908b64d0464a5b988a005a9f66336c6928736",
+    "best.pt": "323fa8a9068afe65fa602fe3f852b69da14a4884c245265147732588cf28887e",
+    "last.pt": "204e8680a4d851a33582b35ce368557164cc5d618dc360a75ad45717c0a42781",
+    "history.csv": "2fa35e88ade29427def35ea36a6f90b0cf2a34f57d3d414219cacb0df16da487",
+    "validation_predictions.csv": "2684e199aa4722d87e1dac305a5a1d922545686b19418fffb6dc08961019f88a",
+    "metrics.csv": "4bd6a81056ad6d3f297948c07da761784d4e4758039d3076d66e278372bfc90e",
+    "disease_only_metrics.csv": "534085f8bc4ab9c5b662ccf682e782692ebca30461e993840248fa814676c55d",
+    "within_disease_auc.csv": "59ea4aafbda2b9bfda9703f922cb1ff72fcfb121e57326b180d2440b7a2d5b84",
+    "site_shuffled_metrics.csv": "95902abca8f71f34ba644748975f0b5e98c241db9beff804db6d3d2fcccbffa8"
+  }
+}
